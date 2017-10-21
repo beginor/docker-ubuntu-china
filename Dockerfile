@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-MAINTAINER beginor <beginor@qq.com>
+LABEL MAINTAINER="beginor <beginor@qq.com>"
 
 # Use cn.archive.ubuntu.com apt source;
 COPY sources.list /etc/apt/sources.list
